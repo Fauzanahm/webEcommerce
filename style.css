@@ -1,0 +1,1217 @@
+* {
+    cursor: pointer;
+}
+
+#login-form {
+    display: none;
+}
+
+.form-box {
+    width: 380px;
+    height: 600px;
+    position: relative;
+    margin: 6% auto;
+    background-color: #917d37;
+    overflow: hidden;
+    font-family: 'Allerta', sans-serif;
+}
+
+.button-box {
+    width: 228px;
+    margin:25px auto;
+    position:relative;
+    box-shadow: 0 0 20px 9px #ff61241f;
+    border-radius: 30px;
+}
+
+.toggle-btn1 {
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+    border-radius: 30px;
+}
+
+.toggle-btn2 {
+    padding: 10px 15px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+    border-radius: 30px;
+}
+
+#btn {
+    top:0;
+    left:0;
+    position: absolute;
+    width: 108px;
+    height: 100%;
+    background: linear-gradient(to right, #584812, #ffad06);
+    border-radius: 30px;
+    transition: .5s;
+    border: 1px solid black;
+}
+
+.input-group-login {
+    top:150px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+}
+
+.input-group-register {
+    top:120px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+
+.submit-btn {
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: #d6b951;
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+
+.check-box {
+    margin: 30px 10px 34px 0;
+}
+
+#login {
+    margin-left:-30px;
+}
+
+#login input {
+    color: white;
+    font-size: 15;
+}
+
+#register {
+    margin-left:-90px;
+}
+
+#register input {
+    color: white;
+    font-size: 15;
+}
+
+
+.navbar-1 {
+    background: url(FotoAsses2/bg\ header.jpeg);
+    background-size: cover;
+    
+}
+
+.navbar-2 {
+    background-color: #B6B0A1;
+}
+
+.p3 {
+    font-family: 'Assistant', sans-serif;
+    font-size: 18px;
+    padding-left: 5px;
+    padding-top: 10px;
+    padding-right: 5px;
+    color: black;
+}
+
+.p7 {
+    color: #2F2D29;
+    padding-top: 300px;
+}
+
+.navbar-brand {
+    padding-left: 10px;
+    padding-top: 15px;
+}
+
+.nav-link {
+    border-radius: 20px;
+    border: 1px solid black;
+    font-family: 'Actor', sans-serif;
+    margin-right: 15px;
+}
+
+.nav-link:hover {
+    background-color: rgb(243, 214, 159);
+}
+
+.navbar-dark .navbar-toggler {
+    border: 1px solid black;
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgb(0, 0, 0, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.btn-head {
+    border-radius: 20px;
+    font-family: 'Allerta', sans-serif;
+    color: black;
+    font-size: 15px;
+    padding: 8;
+    margin-left: 40px;
+    margin-bottom: 90px;
+}
+
+.btn-own {
+    border-radius: 20px;
+    border: 1px solid #695D30;
+    background-color: #695D30 ;
+    font-family: 'Allerta', sans-serif;
+    color: black;
+    font-size: 15px;
+    padding: 8;
+}
+
+.btn-own:hover {
+    background-color: #917d37;
+}
+
+.btn-pop {
+    border-radius: 20px;
+    border: 1px solid #695D30;
+    background-color: #695D30 ;
+    font-family: 'Allerta', sans-serif;
+    color: black;
+    font-size: 15px;
+    padding: 8;
+    width : 200px;
+}
+
+.btn-pop:hover {
+    background-color: #917d37;
+}
+
+.btn-area:hover {
+    background-color: #917d37;
+}
+
+.carrousel {
+    position: relative;
+}
+
+.side3 {
+    background-color: #B6B0A1;
+    background-size: cover;
+}
+
+.side4 {
+    background: url(FotoAsses2/bg\ gallery.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.side41 {
+    background: url(FotoAsses2/bg\ cowo.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.side5 {
+    background-color: #B6B0A1;
+    background-size: cover;
+   
+}
+
+.cp {
+    background-color: #979077;
+}
+
+.btn-dp {
+    border-radius: 20px;
+    border: 1px solid black;
+    font-family: 'Actor', sans-serif;
+    margin-right: 15px;
+}
+
+.transparent-input {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    outline: none;
+}
+
+.in ul {
+    padding: 0;
+}
+
+
+.ikon {
+    
+}
+
+.word ul {
+    padding: 0;
+}
+
+.ikon ul {
+    padding: 0;
+}
+  
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 360px) {
+    iframe{
+        width:330px;
+        height: 200px;
+    }
+    .header {
+        background: url(FotoAsses2/bg\ headerr.jpeg);
+        background-size:auto;
+        height: 350px;
+    }
+    .p1 {
+        font-size: 65px;
+        font-family: 'Basic', sans-serif;
+        position: absolute;
+        padding-left: 40px;
+        width: 100%; 
+        padding-top: 50px;
+    }
+    .p2 {
+        font-size: 15px;
+        padding-top: 145px;
+        font-family: 'Assistant', sans-serif;
+        position: absolute;
+        padding-left: 40px;
+    }
+    .btn-head {
+        border-radius: 20px;
+        font-family: 'Allerta', sans-serif;
+        color: black;
+        margin-top: 185px;
+        font-size: 15px;
+        padding: 8;
+        margin-left: 40px;
+    }
+    .form {
+        border-radius: 50px;
+        border: 1px solid black;
+        font-family: 'Actor', sans-serif;
+        padding-left: 0px;
+        margin-top: 15px;
+    }
+    .form input[type="search"] {
+        background: rgba(0, 0, 0, 0);
+        border-radius: 40px;
+        padding-left: 15px;
+        height: 55px;
+        width : 285px;
+    }
+    .btn-gal {
+        border-radius: 20px;
+        font-family: 'Allerta', sans-serif;
+        color: black;
+        margin-top: 8px;
+        margin-bottom: 10px;
+        font-size: 15px;
+        padding: 8;
+        margin-left: -10px;
+        width: 150px;
+    }    
+    .img-c {
+        float:right; 
+        margin-right: 0px; 
+        margin-top: 50px;
+    }
+    .gallery {
+        margin-top: 50px;
+        float: left;
+    }
+    .dropdown-menu {
+        margin-left:0px;
+    }
+    .card2 {
+        margin-top: 25px; 
+        margin-left: 25px;
+        margin-bottom: 20px;
+        width: 280px;
+    }
+    .card3 {
+        margin-top: 25px; 
+        margin-left: 25px;
+        margin-bottom: 20px;
+        width: 280px;
+    }
+    .word {
+        margin-left: 50px;
+        margin-right: 0px;
+        margin-top: 30px;
+    }
+    .ikon {
+        margin-left: 50px;
+        margin-bottom: 50px;
+    }
+    .p6 {
+        text-align:center;
+        padding-top: 60px;
+        padding-bottom: 30px;
+    }
+    .identi input[type="text"] {
+        width: 300px;
+        background-color: #2F2D29;
+        border: 1px solid #2F2D29;
+        color: aliceblue;
+        margin-bottom: 15px;
+        margin-left: -25px;
+    }
+    .identi input[type="email"] {
+        width: 300px;
+        background-color: #2F2D29;
+        border: 1px solid #2F2D29;
+        margin-bottom: 50px;
+        color: aliceblue;
+        margin-left: -25px;
+    } 
+    .mess textarea[type="textarea"] {
+        width: 300px;
+        background-color: #2F2D29;
+        border: 1px solid #2F2D29;
+        margin-top: -50px;
+        color: aliceblue;
+        margin-left: -25px;
+    }
+    .btn-area {
+        border-radius: 20px;
+        border: 1px solid #695D30;
+        background-color: #695D30 ;
+        font-family: 'Allerta', sans-serif;
+        color: black;
+        font-size: 15px;
+        padding: 8;
+        margin-top: 15px;
+        margin-left: 180px;
+    }
+}
+
+@media only screen and (min-width: 370px) {
+    iframe{
+        width:345px;
+        height: 200px;
+        margin-left: 0px;
+    }
+    .header {
+        background: url(FotoAsses2/bg\ headerr.jpeg);
+        background-size:auto;
+        height: 350px;
+    }
+    .p1 {
+        font-size: 65px;
+        font-family: 'Basic', sans-serif;
+        position: absolute;
+        padding-left: 40px;
+        width: 100%; 
+        padding-top: 50px;
+    }
+    .p2 {
+        font-size: 15px;
+        padding-top: 145px;
+        font-family: 'Assistant', sans-serif;
+        position: absolute;
+        padding-left: 40px;
+    }
+    .btn-head {
+        border-radius: 20px;
+        font-family: 'Allerta', sans-serif;
+        color: black;
+        margin-top: 185px;
+        font-size: 15px;
+        padding: 8;
+        margin-left: 40px;
+    }
+    .form {
+        border-radius: 50px;
+        border: 1px solid black;
+        font-family: 'Actor', sans-serif;
+        padding-left: 0px;
+        margin-top: 15px;
+    }
+    .form input[type="search"] {
+        background: rgba(0, 0, 0, 0);
+        border-radius: 40px;
+        padding-left: 15px;
+        height: 55px;
+        width : 300px;
+    }
+    .btn-gal {
+        border-radius: 20px;
+        font-family: 'Allerta', sans-serif;
+        color: black;
+        margin-top: 8px;
+        margin-bottom: 10px;
+        font-size: 15px;
+        padding: 8;
+        margin-left: -10px;
+        width: 150px;
+    }    
+    .img-c {
+        float:right; 
+        margin-right: 0px; 
+        margin-top: 50px;
+    }
+    .gallery {
+        margin-top: 50px;
+        float: left;
+    }
+    .dropdown-menu {
+        margin-left:0px;
+    }
+    .card2 {
+        margin-top: 25px; 
+        margin-left: 30px; 
+        margin-right: 25px; 
+        margin-bottom: 20px;
+        width: 280px;
+    }
+    .card3 {
+        margin-top: 25px; 
+        margin-left: 30px; 
+        margin-right: 25px; 
+        margin-bottom: 20px;
+        width: 280px;
+    }
+    .word {
+        margin-left: 50px;
+        margin-right: 0px;
+        margin-top: 30px;
+    }
+    .ikon {
+        margin-left: 50px;
+        margin-bottom: 50px;
+    }
+    .p6 {
+        text-align:center;
+        padding-top: 60px;
+        padding-bottom: 30px;
+    }
+    .identi input[type="text"] {
+        width: 300px;
+        background-color: #2F2D29;
+        border: 1px solid #2F2D29;
+        color: aliceblue;
+        margin-bottom: 15px;
+        margin-left: -10px;
+    }
+    .identi input[type="email"] {
+        width: 300px;
+        background-color: #2F2D29;
+        border: 1px solid #2F2D29;
+        margin-bottom: 50px;
+        color: aliceblue;
+        margin-left: -10px;
+    } 
+    .mess textarea[type="textarea"] {
+        width: 300px;
+        background-color: #2F2D29;
+        border: 1px solid #2F2D29;
+        margin-top: -50px;
+        color: aliceblue;
+        margin-left: -10px;
+    }
+    .btn-area {
+        border-radius: 20px;
+        border: 1px solid #695D30;
+        background-color: #695D30 ;
+        font-family: 'Allerta', sans-serif;
+        color: black;
+        font-size: 15px;
+        padding: 8;
+        margin-top: 15px;
+        margin-left: 215px;
+    }
+}
+
+@media only screen and (min-width: 390px) {
+    iframe{
+        width:345px;
+        height: 200px;
+        margin-left: 8px;
+    }
+    .header {
+        background: url(FotoAsses2/bg\ headerr.jpeg);
+        background-size:auto;
+        height: 350px;
+    }
+    .p1 {
+        font-size: 65px;
+        font-family: 'Basic', sans-serif;
+        position: absolute;
+        padding-left: 40px;
+        width: 100%; 
+        padding-top: 50px;
+    }
+    .p2 {
+        font-size: 15px;
+        padding-top: 145px;
+        font-family: 'Assistant', sans-serif;
+        position: absolute;
+        padding-left: 40px;
+    }
+    .btn-head {
+        border-radius: 20px;
+        font-family: 'Allerta', sans-serif;
+        color: black;
+        margin-top: 185px;
+        font-size: 15px;
+        padding: 8;
+        margin-left: 40px;
+    }
+    .form {
+        border-radius: 50px;
+        border: 1px solid black;
+        font-family: 'Actor', sans-serif;
+        padding-left: 0px;
+        margin-top: 15px;
+    }
+    .form input[type="search"] {
+        background: rgba(0, 0, 0, 0);
+        border-radius: 40px;
+        padding-left: 15px;
+        height: 55px;
+        width : 300px;
+    }
+    .btn-gal {
+        border-radius: 20px;
+        font-family: 'Allerta', sans-serif;
+        color: black;
+        margin-top: 8px;
+        margin-bottom: 10px;
+        font-size: 15px;
+        padding: 8;
+        margin-left: -10px;
+        width: 150px;
+    }    
+    .img-c {
+        float:right; 
+        margin-right: 0px; 
+        margin-top: 50px;
+    }
+    .gallery {
+        margin-top: 50px;
+        float: left;
+    }
+    .dropdown-menu {
+        margin-left:0px;
+    }
+    .card2 {
+        margin-top: 25px; 
+        margin-left: 40px; 
+        margin-right: 25px; 
+        margin-bottom: 20px;
+        width: 280px;
+    }
+    .card3 {
+        margin-top: 25px; 
+        margin-left: 40px; 
+        margin-right: 25px; 
+        margin-bottom: 20px;
+        width: 280px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 400px) {
+    iframe{
+        width:350px;
+        height: 210px;
+        margin-left: 15px;
+    }
+    .header {
+        background: url(FotoAsses2/bg\ headerr.jpeg);
+        background-size:auto;
+        height: 350px;
+    }
+    .p1 {
+        font-size: 65px;
+        font-family: 'Basic', sans-serif;
+        position: absolute;
+        padding-left: 40px;
+        width: 100%; 
+        padding-top: 50px;
+    }
+    .p2 {
+        font-size: 15px;
+        padding-top: 145px;
+        font-family: 'Assistant', sans-serif;
+        position: absolute;
+        padding-left: 40px;
+    }
+    .btn-head {
+        border-radius: 20px;
+        font-family: 'Allerta', sans-serif;
+        color: black;
+        margin-top: 185px;
+        font-size: 15px;
+        padding: 8;
+        margin-left: 40px;
+    }
+    .form {
+        border-radius: 50px;
+        border: 1px solid black;
+        font-family: 'Actor', sans-serif;
+        padding-left: 0px;
+        margin-top: 15px;
+    }
+    .form input[type="search"] {
+        background: rgba(0, 0, 0, 0);
+        border-radius: 40px;
+        padding-left: 15px;
+        height: 55px;
+        width : 335px;
+    }
+    .btn-gal {
+        border-radius: 20px;
+        font-family: 'Allerta', sans-serif;
+        color: black;
+        margin-top: 8px;
+        margin-bottom: 10px;
+        font-size: 15px;
+        padding: 8;
+        margin-left: -10px;
+        width: 150px;
+    }    
+    .img-c {
+        float:right; 
+        margin-right: 0px; 
+        margin-top: 50px;
+    }
+    .gallery {
+        margin-top: 50px;
+        float: left;
+    }
+    .dropdown-menu {
+        margin-left:0px;
+    }
+    .card2 {
+        margin-top: 25px; 
+        margin-left: 40px; 
+        margin-right: 25px; 
+        margin-bottom: 20px;
+        width: 300px;
+    }
+    .card3 {
+        margin-top: 25px; 
+        margin-left: 40px; 
+        margin-right: 25px; 
+        margin-bottom: 20px;
+        width: 300px;
+    }
+    .card4 {
+        width: 300px;
+        margin-left: 40px;
+    }
+    .word {
+        margin-left: 50px;
+        margin-right: 0px;
+        margin-top: 30px;
+    }
+    .ikon {
+        margin-left: 50px;
+        margin-bottom: 50px;
+    }
+    .p6 {
+        text-align:center;
+        padding-top: 60px;
+        padding-bottom: 30px;
+    }
+    .identi input[type="text"] {
+        width: 300px;
+        background-color: #2F2D29;
+        border: 1px solid #2F2D29;
+        color: aliceblue;
+        margin-bottom: 15px;
+        margin-left: 2px;
+    }
+    .identi input[type="email"] {
+        width: 300px;
+        background-color: #2F2D29;
+        border: 1px solid #2F2D29;
+        margin-bottom: 50px;
+        color: aliceblue;
+        margin-left: 2px;
+    } 
+    .mess textarea[type="textarea"] {
+        width: 300px;
+        background-color: #2F2D29;
+        border: 1px solid #2F2D29;
+        margin-top: -50px;
+        color: aliceblue;
+        margin-left: 2px;
+    }
+    .btn-area {
+        border-radius: 20px;
+        border: 1px solid #695D30;
+        background-color: #695D30 ;
+        font-family: 'Allerta', sans-serif;
+        color: black;
+        font-size: 15px;
+        padding: 8;
+        margin-top: 15px;
+        margin-left: 230px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 800px) {
+    iframe{
+        width:350px;
+        height: 210px;
+    }
+    .header {
+        background: url(FotoAsses2/bg\ headerr.jpeg);
+        background-size: 845px;
+        background-position: -35px;
+        height: 350px;
+    }
+    .gallery{
+        width: 300px;
+    }
+    .card2 {
+        width: 280px;
+        height: 310px;
+    }
+    .card3 {
+        width: 280px;
+        height: 450px;
+    }
+    .card4 {
+        width: 230px;
+        margin-left: -10px;
+    }
+    .p1 {
+        font-size: 80px;
+        font-family: 'Basic', sans-serif;
+        position: absolute;
+        padding-left: 40px;
+        width: 100%; 
+    }
+    .p2 {
+        font-size: 18px;
+        padding-top: 160px;
+        font-family: 'Assistant', sans-serif;
+        position: absolute;
+        padding-left: 40px;
+    }
+    .btn-head {
+        border-radius: 20px;
+        font-family: 'Allerta', sans-serif;
+        color: black;
+        margin-top: 205px;
+        font-size: 15px;
+        padding: 8;
+        margin-left: 40px;
+    }
+    .form {
+        border-radius: 50px;
+        border: 1px solid black;
+        font-family: 'Actor', sans-serif;
+        padding-left: 0px;
+        margin-top: 5px;
+    }
+    .form input[type="search"] {
+        background: rgba(0, 0, 0, 0);
+        border-radius: 40px;
+        padding-left: 15px;
+        height: 55px;
+        width : 300px;
+    }
+    .btn-gal {
+        border-radius: 20px;
+        font-family: 'Allerta', sans-serif;
+        color: black;
+        margin-top: 8px;
+        margin-bottom: 10px;
+        font-size: 15px;
+        padding: 8;
+        margin-left: -10px;
+        width: 150px;
+    }    
+    .img-c {
+        float:right; 
+        margin-right: 0px; 
+        margin-top: 50px;
+    }
+    .gallery {
+        margin-top: 50px;
+        float: left;
+    }
+    .dropdown-menu {
+        margin-left:0px;
+    }
+    .word {
+        margin-left: 50px;
+        margin-right: 0px;
+        margin-top: 30px;
+    }
+    .ikon {
+        margin-left: 50px;
+        margin-bottom: 50px;
+    }
+    .p6 {
+        text-align:center;
+        padding-top: 60px;
+        padding-bottom: 30px;
+    }
+    .identi input[type="text"] {
+        background-color: #2F2D29;
+        border: 1px solid #2F2D29;
+        color: aliceblue;
+        margin-bottom: 15px;
+        margin-left: -15px;
+    }
+    .identi input[type="email"] {
+        background-color: #2F2D29;
+        border: 1px solid #2F2D29;
+        margin-bottom: 50px;
+        color: aliceblue;
+        margin-left: -15px;
+    } 
+    .mess textarea[type="textarea"] {
+        width: 650px;
+        background-color: #2F2D29;
+        border: 1px solid #2F2D29;
+        margin-top: -50px;
+        color: aliceblue;
+        margin-left: -15px;
+    }
+    .btn-area {
+        border-radius: 20px;
+        border: 1px solid #695D30;
+        background-color: #695D30 ;
+        font-family: 'Allerta', sans-serif;
+        color: black;
+        font-size: 15px;
+        padding: 8;
+        margin-top: 15px;
+        margin-left: 550px;
+    }
+}
+
+@media only screen and (min-width: 810px) {
+    iframe{
+        width:350px;
+        height: 210px;
+    }
+    .header {
+        background: url(FotoAsses2/bg\ headerr.jpeg);
+        background-size: 845px;
+        background-position: -28px;
+        height: 350px;
+    }
+    .gallery{
+        width: 300px;
+    }
+    .card2 {
+        width: 280px;
+        height: 310px;
+    }
+    .card3 {
+        width: 280px;
+        height: 450px;
+    }
+    .card4 {
+        width: 230px;
+        margin-left: -10px;
+    }
+    .p1 {
+        font-size: 80px;
+        font-family: 'Basic', sans-serif;
+        position: absolute;
+        padding-left: 40px;
+        width: 100%; 
+    }
+    .p2 {
+        font-size: 18px;
+        padding-top: 160px;
+        font-family: 'Assistant', sans-serif;
+        position: absolute;
+        padding-left: 40px;
+    }
+    .btn-head {
+        border-radius: 20px;
+        font-family: 'Allerta', sans-serif;
+        color: black;
+        margin-top: 205px;
+        font-size: 15px;
+        padding: 8;
+        margin-left: 40px;
+    }
+    .form {
+        border-radius: 50px;
+        border: 1px solid black;
+        font-family: 'Actor', sans-serif;
+        padding-left: 0px;
+        margin-top: 5px;
+    }
+    .form input[type="search"] {
+        background: rgba(0, 0, 0, 0);
+        border-radius: 40px;
+        padding-left: 15px;
+        height: 55px;
+        width : 300px;
+    }
+    .navbartog {
+        margin-top: -10px;
+    }
+    .btn-gal {
+        border-radius: 20px;
+        font-family: 'Allerta', sans-serif;
+        color: black;
+        margin-top: 8px;
+        margin-bottom: 10px;
+        font-size: 15px;
+        padding: 8;
+        margin-left: -10px;
+        width: 150px;
+    }    
+    .img-c {
+        float:right; 
+        margin-right: 0px; 
+        margin-top: 50px;
+    }
+    .gallery {
+        margin-top: 50px;
+        float: left;
+    }
+    .dropdown-menu {
+        margin-left:0px;
+    }
+    .word {
+        margin-left: 50px;
+        margin-right: 0px;
+        margin-top: 30px;
+    }
+    .ikon {
+        margin-left: 50px;
+        margin-bottom: 50px;
+    }
+    .p6 {
+        text-align:center;
+        padding-top: 60px;
+        padding-bottom: 30px;
+    }
+    .identi input[type="text"] {
+        background-color: #2F2D29;
+        border: 1px solid #2F2D29;
+        color: aliceblue;
+        margin-bottom: 15px;
+        margin-left: -10px;
+    }
+    .identi input[type="email"] {
+        background-color: #2F2D29;
+        border: 1px solid #2F2D29;
+        margin-bottom: 50px;
+        color: aliceblue;
+        margin-left: -10px;
+    } 
+    .mess textarea[type="textarea"] {
+        width: 650px;
+        background-color: #2F2D29;
+        border: 1px solid #2F2D29;
+        margin-top: -50px;
+        color: aliceblue;
+        margin-left: -10px;
+    }
+    .btn-area {
+        border-radius: 20px;
+        border: 1px solid #695D30;
+        background-color: #695D30 ;
+        font-family: 'Allerta', sans-serif;
+        color: black;
+        font-size: 15px;
+        padding: 8;
+        margin-top: 15px;
+        margin-left: 550px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    iframe{
+        width:700px;
+        height:453px;
+    }
+    .header {
+        background: url(FotoAsses2/bg\ headerr.jpeg);
+        background-size: cover;
+        height: 350px;
+    }
+    .card2 {
+        margin-left: 210px;
+        width: 300px;
+    }
+    .card3 {
+        margin-left: 210px;
+        width: 300px;
+    }
+    .p1 {
+        font-size: 110px;
+        font-family: 'Basic', sans-serif;
+        position: absolute;
+        padding-left: 40px;
+        width: 100%; 
+        margin-top: -30px;
+    }
+    .p2 {
+        font-size: 20px;
+        padding-top: 170px;
+        font-family: 'Assistant', sans-serif;
+        position: absolute;
+        padding-left: 40px;
+    }
+    .btn-head {
+        border-radius: 20px;
+        font-family: 'Allerta', sans-serif;
+        color: black;
+        margin-top: 220px;
+        font-size: 15px;
+        padding: 8;
+        margin-left: 40px;
+    }
+    .form {
+        border-radius: 20px;
+        border: 1px solid black;
+        font-family: 'Actor', sans-serif;
+        padding-left: 0px;
+    }
+    .form input[type="search"] {
+        background: rgba(0, 0, 0, 0);
+        border-radius: 20px;
+        padding-left: 15px;
+        height: 40px;
+        width : 200px;
+    }
+    .btn-gal {
+        border-radius: 20px;
+        font-family: 'Allerta', sans-serif;
+        color: black;
+        margin-top: 8px;
+        margin-bottom: 10px;
+        font-size: 15px;
+        padding: 8;
+        margin-left: 5px;
+        width: 150px;
+    }
+    .img-c {
+        float:right; 
+        margin-right: 60px; 
+        margin-top: 100px;
+        width: 700px;
+    }
+    .gallery {
+        margin-top: 120px;
+        float: left;
+    }
+    .dropdown-menu {
+        margin-left:15px;
+    }
+    .poin {
+        width: 1260px;
+    }
+    .word {
+        margin-left: -200px;
+        margin-right: 200px;
+    }
+    .p6 {
+        text-align: center;
+        padding-top: 80px;
+        padding-bottom: 30px;
+    }   
+    .identi input[type="text"] {
+        width: 270px;
+        background-color: #2F2D29;
+        border: 1px solid #2F2D29;
+        margin-bottom: -40px;
+    }
+    
+    .identi input[type="email"] {
+        width: 900px;
+        background-color: #2F2D29;
+        border: 1px solid #2F2D29;
+        margin-left: 285px;
+    }
+    
+    .mess textarea[type="textarea"] {
+        width: 510px;
+        background-color: #2F2D29;
+        border: 1px solid #2F2D29;
+    } 
+    .btn-area {
+        border-radius: 20px;
+        border: 1px solid #695D30;
+        background-color: #695D30 ;
+        font-family: 'Allerta', sans-serif;
+        color: black;
+        font-size: 15px;
+        padding: 8;
+        margin: 20px;
+        float: inline-end;
+    }
+    .word {
+        margin-left: 50px;
+        margin-right: 0px;
+        margin-top: 30px;
+    }
+    .ikon {
+        margin-left: 50px;
+        margin-bottom: 50px;
+    }
+    .p6 {
+        text-align:center;
+        padding-top: 60px;
+        padding-bottom: 30px;
+    }
+    .identi input[type="text"] {
+        width: 100px;
+        background-color: #2F2D29;
+        border: 1px solid #2F2D29;
+        color: aliceblue;
+        margin-left: 250px;
+    }
+    .identi input[type="email"] {
+        background-color: #2F2D29;
+        border: 1px solid #2F2D29;
+        margin-bottom: 50px;
+        color: aliceblue;
+        margin-left: 510px;
+    } 
+    .mess textarea[type="textarea"] {
+        width: 510px;
+        background-color: #2F2D29;
+        border: 1px solid #2F2D29;
+        margin-top: -50px;
+        color: aliceblue;
+        margin-left: 250px;
+    }
+    .btn-area {
+        float: right;
+        border-radius: 20px;
+        border: 1px solid #695D30;
+        background-color: #695D30 ;
+        font-family: 'Allerta', sans-serif;
+        color: black;
+        font-size: 15px;
+        padding: 8;
+        margin-top: 15px;
+        margin-right: 170px;
+    }
+}
